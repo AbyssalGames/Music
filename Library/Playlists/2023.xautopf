@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SmartPlaylist SaveStaticCopy="False" LiveUpdating="True" Layout="4" LayoutGroupBy="0" ShuffleMode="None" ShuffleSameArtistWeight="0.5" GroupBy="track" ConsolidateAlbums="False" MusicLibraryPath="C:\Users\Steve\Music\MusicBee\">
+  <Source Type="1">
+    <Description />
+    <Conditions CombineMethod="All">
+      <Condition Field="FileDateAdded" Comparison="GreaterThan" Value="1/1/2023" />
+      <Condition Field="FileDateAdded" Comparison="LessThan" Value="12/31/2023" />
+      <Condition Field="Rating" Comparison="GreaterThan" Value="40" />
+    </Conditions>
+    <Limit FilterDuplicates="False" Enabled="False" Count="25" Type="Items" SelectedBy="Random" />
+    <SortBy Field="12" Order="Ascending" />
+    <Fields>
+      <Group Id="TrackDetail">
+        <Field Code="20" Width="16" />
+        <Field Code="78" Width="23" />
+        <Field Code="32" Width="231" />
+        <Field Code="65" Width="303" />
+        <Field Code="75" Width="75" />
+        <Field Code="16" Width="47" />
+        <Field Code="12" Width="111" />
+        <Field Code="14" Width="48" />
+        <Field Code="76" Width="41" />
+      </Group>
+    </Fields>
+  </Source>
+</SmartPlaylist>

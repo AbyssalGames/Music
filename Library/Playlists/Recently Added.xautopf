@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SmartPlaylist SaveStaticCopy="False" LiveUpdating="True" Layout="0" LayoutGroupBy="0" ShuffleMode="None" ShuffleSameArtistWeight="0" GroupBy="track" ConsolidateAlbums="False" MusicLibraryPath="C:\Users\Steve\Music\MusicBee\">
+  <Source Type="1">
+    <Description />
+    <Conditions CombineMethod="All">
+      <Condition Field="FileDateAdded" Comparison="InTheLast" Value="6m" />
+      <Condition Field="GenreSplits" Comparison="IsNot" Value="Workout" />
+    </Conditions>
+    <Limit FilterDuplicates="False" Enabled="False" Count="25" Type="Items" SelectedBy="Random" />
+    <SortBy Field="12" Order="Descending" />
+    <GroupBy Field="180" Compress="False" FirstLetter="False" />
+    <Fields>
+      <Group Id="TrackDetail">
+        <Field Code="20" Width="15" />
+        <Field Code="32" Width="169" />
+        <Field Code="65" Width="228" />
+        <Field Code="59" Width="110" />
+        <Field Code="16" Width="64" />
+        <Field Code="12" Width="107" />
+        <Field Code="75" Width="75" />
+        <Field Code="14" Width="44" />
+        <Field Code="76" Width="29" />
+      </Group>
+      <Group Id="AlbumAndTracks">
+        <Field Code="40" Width="120" />
+        <Field Code="20" Width="16" />
+        <Field Code="53" Width="40" />
+        <Field Code="32" Width="120" />
+        <Field Code="65" Width="160" />
+        <Field Code="16" Width="45" />
+        <Field Code="180" Width="75" />
+      </Group>
+    </Fields>
+    <ExceptionsInclude>G:\Music\New\youtube_qISroD68EdY_audio.mp3|G:\Music\New\youtube_R7DnVUqpSrw_audio.mp3</ExceptionsInclude>
+  </Source>
+</SmartPlaylist>
